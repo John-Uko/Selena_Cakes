@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Selena cakes and chops webpage">
+    <meta name="keywords" content="cakes, pasteries, small chops, chops">
+    <meta name="author" content="Joh Uko">
+    <title>Selena_Cakes</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="topbar">
+        <div class="brand_name">
+            <h1>Selena_Cakes</h1>
+            <p>Your #1 stop for your cakes, pasteries and small chops for all events.</p>
+        </div>
+        <section>
+            <nav class="branding">
+                <a href="#topbar">Home</a>
+                <a href="#cakes">Services</a>
+                <a href="#review">About Us</a>
+                <a href="#footer">Contact Us</a>
+            </nav>
+        </section>
+    </header>
+    <section id="cakes">
+        <div>
+            <h2>Wedding Cakes</h2>
+            <div class="wedding">
+                <img src="https://images.pexels.com/photos/1038711/pexels-photo-1038711.jpeg" alt="cake size 64'">
+                <p>cake size 64"<button class="btn">Order</button></p>
+                <img src="https://images.pexels.com/photos/3014858/pexels-photo-3014858.jpeg" alt="cake size 52'">
+                <p>cake size 52"<button class="btn">Order</button></p>
+                <img src="https://images.pexels.com/photos/12283514/pexels-photo-12283514.jpeg" alt="cake size 32'">
+                <p>cake size 32"<button class="btn">Order</button></p>
+            </div>
+        </div>
+        <div>
+            <h2>Birthday cake</h2>
+            <div class="birthday">
+                <img src="https://images.pexels.com/photos/10891154/pexels-photo-10891154.jpeg" alt="cake size 22'">
+                <p>cake size 22"<button class="btn">Order</button></p>
+                <img src="https://images.pexels.com/photos/29192543/pexels-photo-29192543.jpeg" alt="cake size 12'">
+                <p>cake size 12"<button class="btn">Order</button></p>
+                <img src="https://images.pexels.com/photos/24895885/pexels-photo-24895885.jpeg" alt="cake size 6'">
+                <p>cake size 6"<button class="btn">Order</button></p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="chops">
+        <div>
+            <h2>Small chops</h2>
+            <div class="plater">                
+                <ul>
+                    <li>spring roll/samosa/puff-puff/chicken/gizzard <span><button>#15,000</button></span></li>
+                    <li>spring roll/samosa/puff-puff/beef <span><button>#10,000</button></span></li>
+                    <li>spring roll/samosa/puff-puff/gizzard <span><button>#7,000</button></span></li>
+                    <li>spring roll/samosa/puff-puff <span><button>#5,000</button></span></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h2>Snacks</h2>
+            <div class="snacks">
+                <img src="images/download.jpg" alt="Chicken pie">
+                <p>Chicken pie <button>#1,500</button></p>
+                <img src="images/images (1).jpg" alt="Meat pie">
+                <p>Meat pie <button>#1,200</button></p>
+                <img src="images/download (1).jpg" alt="Sausage roll">
+                <p>Sausage roll <button>#800</button></p>
+                <img src="images/images.jpg" alt="Doughnut">
+                <p>Doughnut <button>#600</button></p>
+                <img src="images/images (2).jpg" alt="Hamburger">
+                <p>Hamburger <button>#1,200</button></p>
+            </div>
+        </div>
+    </section>
+    <section id="review">
+        <div>
+            <h2>Why Customers Want Us</h2>
+            <div class="review">
+                <figure class="comment">
+                  <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=1" alt="Smiling customer portrait"/>
+                  <blockquote>“You feel the care in every bite. The cake and chops tastes like a hug.”</blockquote>
+                  <figcaption>— Mariam</figcaption>
+                </figure>
+                <figure class="comment">
+                  <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=1" alt="Customer portrait in natural light"/>
+                  <blockquote>“Friendly staff, great customer service, and snacks that are dangerously good.”</blockquote>
+                  <figcaption>— Chidi</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <p>&copy;<span id="year"></span> Selena_Cakes. All right reserved</p>
+    </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
