@@ -1,6 +1,5 @@
 /* General */
 body{
-    margin: 10px 10px;
     background-color: #f0f8ff;
 }
 
@@ -62,6 +61,7 @@ button{
 }
 
 #cakes, #chops{
+    margin-left: 60px;
     gap: 20px;
     align-items: center;
     justify-items: center;
@@ -145,14 +145,22 @@ button{
 
 /* Footer */
 #footer{
-    text-align:center;
-    padding: auto;
-    justify-content: space-between;
-    gap: 2em;
+    align-items: center;
+    justify-items: center;
 }
 @media only screen and (max-width: 768px) {
     body{
         background-color: aquamarine;
+        font-size: 0.5rem;
+        place-items: center;
+        justify-items: center;
+    }
+    #topbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1{
+        font-size: 1rem;
     }
     .wedding, .birthday{
         display: grid;
@@ -164,9 +172,16 @@ button{
     h2{
         margin-left: 50px;
     }
+    #chops{
+        margin-left: 40px;
+    }
     .platter{
         display: flex;
         background-position: content;
         font-size: smaller;
+    }
+    #review{
+        display: grid;
+        grid-auto-flow: row;
     }
 }
